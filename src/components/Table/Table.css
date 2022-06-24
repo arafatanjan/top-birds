@@ -1,0 +1,11 @@
+.table-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.bird-container {
+    margin-right: 50px;
+    font: 100;
+    background-color: blue;
+    margin-left: 40px;
+}
