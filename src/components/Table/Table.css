@@ -6,6 +6,25 @@
 .bird-container {
     margin-right: 50px;
     font: 100;
-    background-color: blue;
+    background-color: wheat;
     margin-left: 40px;
+}
+
+.bird-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn-regular {
+    background-color: goldenrod;
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
 }

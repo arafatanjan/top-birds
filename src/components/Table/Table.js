@@ -12,13 +12,23 @@ const Table = () => {
             .then(data => setBirds(data));
 
     }, [])
+
+    const handleAddToCart = (bird) => {
+        console.log(bird.name);
+    }
     return (
         <div className="table-container">
             <div className='bird-container'>
-                <h1>This : {birds.length}</h1>
-                {
-                    birds.map(bird => <Bird bird={bird}></Bird>)
-                }
+                {/* <h1>This : {birds.length}</h1> */}
+                <div className='bird-card'>
+                    {
+                        birds && birds.map(bird => <Bird
+                            key={bird.key}
+                            bird={bird}
+                            handleAddToCart={handleAddToCart}></Bird>)
+                    }
+                </div>
+
             </div>
             <div className='cart-container'>
                 <h5>Bird Added</h5>
