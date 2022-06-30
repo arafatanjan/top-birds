@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Bird from '../Bird/Bird';
+import Cart from '../Cart/Cart';
 
 import './Table.css'
 
 
 const Table = () => {
     const [birds, setBirds] = useState([]);
+    const [cart, setCart] = useState([]);
     useEffect(() => {
         fetch('product.JSON')
             .then(res => res.json())
@@ -14,7 +16,8 @@ const Table = () => {
     }, [])
 
     const handleAddToCart = (bird) => {
-        console.log(bird.name);
+        const newCart = [...cart, bird];
+        setCart(newCart);
     }
     return (
         <div className="table-container">
@@ -31,8 +34,7 @@ const Table = () => {
 
             </div>
             <div className='cart-container'>
-                <h5>Bird Added</h5>
-                <h5>Total Cost</h5>
+                <Cart cart={cart}></Cart>
             </div>
 
         </div>
