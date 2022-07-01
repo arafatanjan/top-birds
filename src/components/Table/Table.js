@@ -18,7 +18,9 @@ const Table = () => {
     const handleAddToCart = (bird) => {
         const newCart = [...cart, bird];
         setCart(newCart);
+        console.log(typeof (cart));
     }
+    console.log(cart)
     return (
         <div className="table-container">
             <div className='bird-container'>

@@ -3,12 +3,12 @@ import './Bird.css';
 
 const Bird = (props) => {
     // console.log(props.bird);
-    // const { name, color, country, price, img } = props.bird;
+    // const { name, color, country, price, img } = props?.bird;
 
     return (
         <div className='country'>
             {/* <h4>this {props.bird.color}</h4> */}
-            <img src='img' />
+            <img src={props.bird?.img} />
             <h4>{props.bird?.name}</h4>
             <h4>{props.bird?.color}</h4>
             <h4>{props.bird?.country}</h4>

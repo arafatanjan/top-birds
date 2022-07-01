@@ -14,7 +14,7 @@ import Cart from './components/Cart/Cart';
 function App() {
   return (
     <div className="App">
-      <Directors></Directors>
+      {/* <Directors></Directors> */}
       <Header></Header>
       <Table></Table>
       <Bird></Bird>
@@ -24,13 +24,13 @@ function App() {
   );
 }
 
-function Directors() {
-  return (
-    <div>
-      {/* <h2> directors </h2> */}
-    </div>
-  )
-}
+// function Directors() {
+//   return (
+//     <div>
+//       {/* <h2> directors </h2> */}
+//     </div>
+//   )
+// }
 
 
 export default App;

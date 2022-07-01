@@ -5,7 +5,7 @@
         "color": "Ash",
         "country": "USA",
         "price": 900,
-        "img": "https://pixabay.com/photos/owl-bird-predator-branch-nature-1834152/"
+        "img": "https://cdn.pixabay.com/photo/2016/11/18/12/14/owl-1834152_960_720.jpg"
     },
     {
         "key": 2,
@@ -13,7 +13,7 @@
         "color": "Red",
         "country": "UK",
         "price": 800,
-        "img": "https://pixabay.com/photos/parrot-yellow-macaw-bird-perched-3601194/"
+        "img": "https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg"
     },
     {
         "key": 3,
@@ -21,7 +21,7 @@
         "color": "Green",
         "country": "Columbo",
         "price": 700,
-        "img": "https://pixabay.com/photos/rock-dove-pigeon-bird-animal-4330267/"
+        "img": "https://cdn.pixabay.com/photo/2019/07/11/08/10/rock-dove-4330267_960_720.jpg"
     },
     {
         "key": 4,
@@ -29,7 +29,7 @@
         "color": "Blue",
         "country": "SA",
         "price": 600,
-        "img": "https://pixabay.com/photos/blue-jays-feeding-bird-wildlife-2642107/"
+        "img": "https://cdn.pixabay.com/photo/2017/08/14/21/45/blue-jays-2642107_960_720.jpg"
     },
     {
         "key": 5,
@@ -37,7 +37,7 @@
         "color": "Yellow",
         "country": "Holland",
         "price": 500,
-        "img": "https://pixabay.com/photos/parrots-couple-kiss-budgerigar-1729965/"
+        "img": "https://cdn.pixabay.com/photo/2016/10/10/21/46/budgerigar-1729965_960_720.jpg"
     },
     {
         "key": 6,
@@ -45,7 +45,7 @@
         "color": "Black",
         "country": "BD",
         "price": 400,
-        "img": "https://pixabay.com/photos/blackbird-isolated-white-background-2781554/"
+        "img": "https://cdn.pixabay.com/photo/2017/09/24/11/27/blackbird-2781554_960_720.jpg"
     },
     {
         "key": 7,
@@ -53,7 +53,7 @@
         "color": "Golden Green",
         "country": "NZ",
         "price": 300,
-        "img": "https://pixabay.com/photos/hummingbird-bird-flight-wings-2139279/"
+        "img": "https://cdn.pixabay.com/photo/2017/03/13/10/25/hummingbird-2139279_960_720.jpg"
     },
     {
         "key": 8,
@@ -61,7 +61,7 @@
         "color": "Black white",
         "country": "Iceland",
         "price": 200,
-        "img": "https://pixabay.com/photos/king-penguins-birds-animals-384252/"
+        "img": "https://cdn.pixabay.com/photo/2014/07/04/21/59/king-penguins-384252_960_720.jpg"
     },
     {
         "key": 9,
@@ -69,6 +69,6 @@
         "color": "Genera",
         "country": "Aus",
         "price": 100,
-        "img": "https://pixabay.com/photos/bird-saffron-finch-ornithology-7071662/"
+        "img": "https://cdn.pixabay.com/photo/2022/03/16/06/18/bird-7071662_960_720.jpg"
     }
 ]
