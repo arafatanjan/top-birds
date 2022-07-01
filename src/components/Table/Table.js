@@ -18,7 +18,7 @@ const Table = () => {
     const handleAddToCart = (bird) => {
         const newCart = [...cart, bird];
         setCart(newCart);
-        console.log(typeof (cart));
+        // console.log(cart);
     }
     console.log(cart)
     return (
@@ -27,7 +27,7 @@ const Table = () => {
                 {/* <h1>This : {birds.length}</h1> */}
                 <div className='bird-card'>
                     {
-                        birds && birds.map(bird => <Bird
+                        birds.map(bird => <Bird
                             key={bird.key}
                             bird={bird}
                             handleAddToCart={handleAddToCart}></Bird>)

@@ -3,6 +3,12 @@
 }
 
 .country img {
-    width: 200px;
+    width: 280px;
+    margin-top: 2px;
 
+}
+
+.square {
+    background-color: wheat;
+    padding: 10px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './cart.css'
 
 const Cart = (props) => {
     const { cart } = props;
@@ -10,13 +11,17 @@ const Cart = (props) => {
     }
 
 
-    // console.log(typeof (cart))
+    // console.log(cart)
     return (
-        <div>
+        <div className='cart'>
             <h5>Bird Added: {props.cart?.length}</h5>
             <h5>Total Cost:{total}</h5>
-            <h5>gg{props.bird?.name}</h5>
-        </div>
+            <ul>
+                {
+                    cart?.map(pd => <li >{pd.name}</li>)
+                }
+            </ul>
+        </div >
     );
 };
 
